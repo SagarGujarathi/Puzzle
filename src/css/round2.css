@@ -1,0 +1,42 @@
+.round2-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem;
+    flex-grow: .5;
+}
+
+.options-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    max-width: 300px;
+    width: 100%;
+    padding: 1rem;
+    background-color: #C7E9B0;
+    cursor: pointer;
+    transition-duration: 200ms;
+    font-weight: 600;
+}
+
+.option:hover {
+    scale: 1.02;
+}
+
+.parking {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70%;
+}

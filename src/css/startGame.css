@@ -1,0 +1,13 @@
+.timer {
+    padding: 1rem 2rem;
+    background-color: #C7E9B0;
+    font-size: 1.5rem;
+    border-radius: 3px;
+}
+
+@media (max-width : 540px) {
+
+    .footer {
+        padding: 1.5rem;
+    }
+}

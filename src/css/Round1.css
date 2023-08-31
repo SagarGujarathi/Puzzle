@@ -1,0 +1,42 @@
+.round1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+}
+
+.image-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+
+
+.image-item img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    cursor: pointer;
+    transition-duration: 150ms;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+
+}
+
+.image-item img:hover {
+    scale: 1.01;
+}
+
+.victim {
+    max-width: 500px;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    border-radius: 3px;
+}
